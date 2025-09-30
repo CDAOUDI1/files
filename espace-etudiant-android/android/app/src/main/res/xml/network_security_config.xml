@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Trust only HTTPS connections -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    
+    <!-- Allow ENSABM domain -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">ensabm.usms.ac.ma</domain>
+        <domain includeSubdomains="true">usms.ac.ma</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
