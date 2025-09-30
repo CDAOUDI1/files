@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Espace Étudiant ENSABM</string>
+    
+    <!-- Navigation -->
+    <string name="nav_back">Retour</string>
+    <string name="nav_forward">Suivant</string>
+    <string name="nav_home">Accueil</string>
+    <string name="nav_refresh">Actualiser</string>
+    <string name="nav_bookmarks">Favoris</string>
+    <string name="nav_menu">Menu</string>
+    
+    <!-- Loading Messages -->
+    <string name="loading">Chargement en cours…</string>
+    <string name="loading_page">Chargement de la page…</string>
+    
+    <!-- Error Messages -->
+    <string name="error_no_internet">Pas de connexion Internet</string>
+    <string name="error_page_load">Erreur de chargement de la page</string>
+    <string name="error_generic">Une erreur s\'est produite</string>
+    
+    <!-- Offline Page -->
+    <string name="offline_title">Hors ligne</string>
+    <string name="offline_message">Vérifiez votre connexion Internet</string>
+    <string name="offline_retry">Réessayer</string>
+    
+    <!-- Bookmarks -->
+    <string name="bookmark_added">Signet ajouté</string>
+    <string name="bookmark_removed">Signet supprimé</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_appearance">Apparence</string>
+    <string name="settings_language">Langue</string>
+    <string name="settings_cache">Cache</string>
+    <string name="settings_about">À propos</string>
+    <string name="settings_dark_mode">Mode sombre</string>
+    <string name="settings_clear_cache">Effacer le cache</string>
+    <string name="settings_clear_data">Effacer toutes les données</string>
+    
+    <!-- Quick Access -->
+    <string name="quick_grades">Notes</string>
+    <string name="quick_schedule">Emploi du temps</string>
+    <string name="quick_attendance">Absences</string>
+    <string name="quick_documents">Documents</string>
+    
+    <!-- About -->
+    <string name="about_version">Version</string>
+    <string name="about_developer">Développé pour ENSA Béni Mellal</string>
+    <string name="about_copyright">© 2024 ENSA Béni Mellal. Tous droits réservés.</string>
+</resources>
